@@ -1,0 +1,11 @@
+---
+version: "1.2.0"
+
+environment:
+  defaultServices:
+    - name: "tutorial-frontend"
+      repository: "vmelikyan/tutorial-frontend"
+      branch: "main"
+    - name: "tutorial-backend"
+      repository: "vmelikyan/tutorial-backend"
+      branch: "main"
